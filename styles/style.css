@@ -8,10 +8,6 @@
   font-style: normal;
 }
 
-*{
-    margin: 0;
-}
-
 /* shared styles */
 .display-flex{
     display: flex;
