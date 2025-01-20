@@ -8,6 +8,10 @@
   font-style: normal;
 }
 
+*{
+    margin: 0;
+}
+
 /* shared styles */
 .display-flex{
     display: flex;
@@ -53,6 +57,7 @@ main > section{
 .section-title{
     font-size: 2.8rem;
     font-weight: 700;
+    margin-bottom: 25px;
 }
 
 /* header styles */
@@ -144,6 +149,27 @@ main > section{
     margin-bottom: 0px;
 }
 
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -80px;
+}
+
+#experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.feature-architect img{
+    width: 100%;
+}
+
+.facts-container{
+    margin-top: 100px;
+}
+
 /* some facts related styles */
 .facts-container{
     display: grid;
@@ -197,6 +223,7 @@ main > section{
 @media  screen and (max-width: 576px) {
     .navbar,
     .nav-links, 
+    .features,
     .teams{
         flex-direction: column;
     }
@@ -220,6 +247,11 @@ main > section{
 
     .our-features{
         margin-left: 20px;
+    }
+
+    #experience-badge{
+        margin-top: 25px;
+        margin-left: 25px;
     }
 
 }
